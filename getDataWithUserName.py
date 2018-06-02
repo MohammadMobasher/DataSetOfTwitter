@@ -17,8 +17,9 @@ if __name__ == '__main__':
     auth.set_access_token(access_token, access_token_secret)
     api = tweepy.API(auth)
 
+
     pathForSaveTweets = ""
-    listOfNameUser = []
+    listOfNameUser = [] #id/user_id/screen_name
 
     for item in listOfNameUser:
         if os.path.exists(pathForSaveTweets + "\\" + fileName.split(".")[0]):
