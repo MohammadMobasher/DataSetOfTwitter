@@ -19,7 +19,7 @@ if __name__ == '__main__':
 
 
     pathForSaveTweets = ""
-    listOfNameUser = [] #id/user_id/screen_name
+    listOfNameUser = [] #id or user_id or screen_name
 
     for item in listOfNameUser:
         if os.path.exists(pathForSaveTweets + "\\" + fileName.split(".")[0]):
